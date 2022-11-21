@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+        <a href="/posted"> Goto Loaded Video</a>
+    <br>
+    <hr>
+        <p>Existing file in db:<%= existDataNumber %> </p>
+    <hr>
+    <br>
+    <form action="/posted" method="post" enctype="multipart/form-data">
+        <br><hr>
+        <div>
+            Name: <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <hr>
+        <div>
+            Surname: <input type="text" name="surname" id="surname">
+        </div>
+        <br>
+        <hr>
+        <div>
+            Surname: <input type="file" name="file" id="file">
+        </div>
+        <br>
+        <hr>
+        <div>
+            Surname: <input type="submit" name="submit" id="submit">
+        </div>
+        <br>
+        <hr>
+    </form>
+</body>
+</html>
